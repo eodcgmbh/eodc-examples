@@ -24,6 +24,7 @@ pydantic = "1.10.12"
 lz4 = "^4.3.2"
 dask = "2023.8.0"
 pyproj = "^3.6.0"
+owslib = "^0.29.2"
 
 
 [build-system]

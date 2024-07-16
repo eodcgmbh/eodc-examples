@@ -1,0 +1,75 @@
+{
+  "id": "EO-MQS-Demo",
+  "links": [
+    {
+      "rel": "EO-MQS-help",
+      "href": "https://mqs.eodc.eu/help/"
+    },
+    {
+      "rel": "EO-MQS-API",
+      "href": "https://mqs.eodc.eu/stac/v1"
+    },
+    {
+      "rel": "EO-MQS-Browser",
+      "href": "https://mqs.eodc.eu/browser"
+    },
+    {
+      "rel": "EO-MQS-API-Swagger",
+      "href": "https://mqs.eodc.eu/stac/v1/docs"
+    },
+    {
+      "rel": "RadiantEarth-Browser",
+      "href": "https://radiantearth.github.io/stac-browser/#/"
+    },
+    {
+      "rel": "rocket",
+      "href": "https://rocket.snapplanet.io/map?c=0,0,2.74"
+    },	
+    {
+      "rel": "STAC-Specification-Website",
+      "href": "https://stacspec.org/en"
+    },
+    {
+      "rel": "STAC-Specification-Website",
+      "href": "https://stacspec.org/en"
+    },
+    {
+      "rel": "STAC-Specification-GitHub",
+      "href": "https://github.com/radiantearth/stac-spec"
+    },
+    {
+      "rel": "STAC-API-Specification-GitHub",
+      "href": "https://github.com/radiantearth/stac-api-spec/"
+    },
+    {
+      "rel": "STAC-API-Item-Search-GitHub",
+      "href": "https://github.com/radiantearth/stac-api-spec/tree/main/item-search"
+    },
+    {
+      "rel": "STAC-API-Extensions-GitHub",
+      "href": "https://stac-api-extensions.github.io/"
+    },			
+    {
+      "rel": "STAC-Index",
+      "href": "https://stacindex.org/"
+    },			
+    {
+      "rel": "C-SCALE-providers-guide",
+      "href": "https://wiki.c-scale.eu/en/C-SCALE/c-scale-providers/data-federation"
+    },
+    {
+      "rel": "GOCDB",
+      "href": "https://goc.egi.eu/"
+    },
+    {
+      "rel": "GOCDB-C-SCALE",
+      "href": "https://goc.egi.eu/gocdbpi/public/?method=get_service_endpoint&scope=C-SCALE"
+    },
+    {
+      "rel": "C-SCALE-Wiki",
+      "href": "https://wiki.c-scale.eu/C-SCALE"
+    }					
+  ]
+}
+
+

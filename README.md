@@ -1,3 +1,6 @@
+## Example Environment for all Notebooks
+### Note: Not all Dependencies are needed for every Notebook
+
 mamba env create -f environment.yml
 
 mamba activate eodc-examples

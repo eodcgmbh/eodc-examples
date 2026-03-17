@@ -1,0 +1,14 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Feature",
+  "id": "item-002",
+  "collection": "customer-demo",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[[16.38,48.12],[16.48,48.12],[16.48,48.20],[16.38,48.20],[16.38,48.12]]]
+  },
+  "bbox": [16.38, 48.12, 16.48, 48.20],
+  "properties": { "datetime": "2026-02-02T10:15:00Z" },
+  "links": [],
+  "assets": {}
+}

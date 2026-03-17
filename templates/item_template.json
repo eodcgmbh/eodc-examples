@@ -1,0 +1,16 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Feature",
+  "id": "<item-id>",
+  "collection": "<collection-id>",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[["<minx>", "<miny>"], ["<maxx>", "<miny>"], ["<maxx>", "<maxy>"], ["<minx>", "<maxy>"], ["<minx>", "<miny>"]]]
+  },
+  "bbox": ["<minx>", "<miny>", "<maxx>", "<maxy>"],
+  "properties": {
+    "datetime": "<ISO-8601-datetime>"
+  },
+  "links": [],
+  "assets": {}
+}

@@ -1,0 +1,26 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "id": "customer-demo",
+  "title": "Customer PoC Demo Collection",
+  "description": "Ready-to-ingest metadata-only sample collection for practicing STAC ingestion and query.",
+  "license": "proprietary",
+  "access": {
+    "visibility": "organisation",
+    "allowed_users": [],
+    "allowed_organisations": ["eodc"]
+  },
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [16.3, 48.1, 16.55, 48.25]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        ["2026-02-01T00:00:00Z", "2026-02-03T23:59:59Z"]
+      ]
+    }
+  },
+  "links": []
+}

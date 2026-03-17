@@ -1,0 +1,18 @@
+{
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "id": "<collection-id>",
+  "title": "<title>",
+  "description": "<description>",
+  "license": "proprietary",
+  "access": {
+    "visibility": "<organisation | user>",
+    "allowed_users": ["<user-email-if-visibility-user>"],
+    "allowed_organisations": ["<organisation-if-visibility-organisation>"]
+  },
+  "extent": {
+    "spatial": { "bbox": [[["<minx>", "<miny>", "<maxx>", "<maxy>"]]] },
+    "temporal": { "interval": [["<start-datetime>", "<end-datetime>"]] }
+  },
+  "links": []
+}

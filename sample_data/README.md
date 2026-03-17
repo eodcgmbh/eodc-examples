@@ -19,11 +19,4 @@ The sample dataset allows you to:
 
 All files are valid STAC 1.0.0 objects and can be directly POSTed to a STAC API endpoint.
 
-## Usage Order
-
-1. POST the Collection
-2. POST the Items
-3. Perform queries
-4. Update or delete entities as needed
-
 This dataset is intended for demonstration and training purposes only.

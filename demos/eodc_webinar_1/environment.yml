@@ -1,0 +1,19 @@
+channels:
+  - conda-forge
+dependencies:
+  - rasterio
+  - rioxarray
+  - gdal
+  - libgdal
+  - python
+  - pip
+  - pystac 
+  - pystac-client
+  - requests
+  - jupyterlab
+  - shapely
+  - odc-stac
+  - geopandas
+  - folium
+  - matplotlib
+  - qrcode 

@@ -17,6 +17,3 @@ The sample dataset allows you to:
 * Modify existing STAC entities
 * Delete Items or the Collection
 
-All files are valid STAC 1.0.0 objects and can be directly POSTed to a STAC API endpoint.
-
-This dataset is intended for demonstration and training purposes only.

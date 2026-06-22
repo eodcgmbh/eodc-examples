@@ -1,0 +1,5 @@
+[project]
+name = "drysat-workshop"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = ["eomaps", "rasterio", "pystac", "pandas", "xarray", "rioxarray", "odc", "odc-stac", "ipywidgets", "ipympl", "ipykernel", "owslib", "datashader", "zarr", "requests", "aiohttp", "boto3", "s3fs", "h5netcdf", "h5py"]

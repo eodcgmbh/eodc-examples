@@ -2,7 +2,7 @@
 
 ## Overview
 
-This guide explains how customers can publish their data in the EODC-hosted STAC API [endpoint](https://proxy.dev.services.eodc.eu/collections)
+This guide explains how customers can publish their data in the EODC-hosted STAC API [endpoint](https://proxy.dev.services.eodc.eu)
 
 The typical workflow consists of preparing STAC metadata, authenticating to the API, and creating STAC **Collections** and **Items**.
 

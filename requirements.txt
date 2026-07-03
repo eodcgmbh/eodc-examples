@@ -1,2 +1,6 @@
 eodc
 openeo
+matplotlib
+cartopy
+zarr
+pystac-client

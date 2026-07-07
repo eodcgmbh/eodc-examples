@@ -9,7 +9,7 @@ dependencies:
     #  - shapely=2.1.2
     #  - pyproj=3.7.2
     #  - matplotlib=3.10.8
-    #  - xarray=2025.12.0
+  - xarray=2025.12.0
     #  - zarr=3.1.5
     #  - rasterio=1.4.4
     #  - rioxarray=0.20.0

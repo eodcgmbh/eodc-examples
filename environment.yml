@@ -1,24 +1,34 @@
 name: eodc-examples
+
 channels:
   - conda-forge
+
 dependencies:
   - python=3.14
   - cartopy=0.25.0
-  - zarr
-  - pip
-  - numpy
-  - xarray
-  - pandas
-  - matplotlib
-  - affine
-  - pystac
-  - pystac-client
-  - odc-stac
-  - odc-geo
-  - rich
-  - ipywidgets
-  - pip:
-      #- "eodc==2025.10.2"
-      - eodc-connect
-      - contextily
-      - openeo
+    #  - shapely=2.1.2
+    #  - pyproj=3.7.2
+    #  - matplotlib=3.10.8
+    #  - xarray=2025.12.0
+    #  - zarr=3.1.5
+    #  - rasterio=1.4.4
+    #  - rioxarray=0.20.0
+    #  - geopandas=1.1.2
+    #  - pystac-client=0.9.0
+    #  - fsspec=2026.6.0
+    #  - aiohttp=3.14.1
+    #  - requests=2.34.2
+    #  - dask=2026.6.0
+    #  - distributed=2026.6.0
+    #  - pip=26.1.2
+    #  - numpy=2.5.1
+    #  - pandas=3.0.3
+    #  - affine=2.4.0
+    #  - pystac=1.14.3
+    #  - odc-stac=0.5.2
+    #  - odc-geo=0.5.2
+    #  - rich=15.0.0
+#  - ipywidgets=8.1.8
+  # - pip:
+  #     # - eodc-connect
+  #     - openeo

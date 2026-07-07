@@ -2,7 +2,9 @@ name: eodc-examples
 channels:
   - conda-forge
 dependencies:
-  - python=3.10
+  - python=3.14
+  - cartopy=0.25.0
+  - zarr
   - pip
   - numpy
   - xarray

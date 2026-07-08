@@ -1,6 +1,7 @@
-eodc
-openeo
-matplotlib
-cartopy
+cartopy==0.25.0
+xarray==2025.12.0
 zarr
 pystac-client
+fsspec
+aiohttp
+requests==2.34.2

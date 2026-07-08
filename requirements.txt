@@ -1,5 +1,5 @@
 cartopy==0.25.0
-xarray==2025.12.0
+xarray
 zarr
 pystac-client
 fsspec

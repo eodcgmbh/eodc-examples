@@ -15,9 +15,10 @@ dependencies:
   - rasterio=1.4.4 
   - rioxarray=0.20.0 
   - geopandas=1.1.2 
-  - zipp>=4.1.0
-  - importlib-metadata>=9.0.0
-  - ipykernel 
+    #  - zipp>=4.1.0
+    #  - importlib-metadata>=9.0.0
+    #  - mako
+    #  - ipykernel 
   - pystac-client 
   - fsspec 
   - aiohttp 

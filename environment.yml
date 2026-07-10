@@ -1,8 +1,10 @@
+name: eodc-examples
+
 channels:
   - conda-forge
 
 dependencies:
-  - python>=3.11
+  - python>=3.13
   - cartopy=0.25.0 
   - shapely=2.1.2 
   - pyproj=3.7.2 
@@ -14,6 +16,7 @@ dependencies:
   - rioxarray=0.20.0 
   - geopandas=1.1.2 
   - zipp>=4.1.0
+  - importlib-metadata>=9.0.0
   - ipykernel 
   - pystac-client 
   - fsspec 
@@ -23,6 +26,6 @@ dependencies:
   - distributed
   - openeo
   - rich
-  #- pip
-  #- pip:
-  #  - eodc-connect
+    #  - pip
+    #  - pip:
+    #    - eodc-connect

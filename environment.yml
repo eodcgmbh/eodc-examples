@@ -4,7 +4,7 @@ channels:
   - conda-forge
 
 dependencies:
-  - python=3.12
+  - python=3.13
   - cartopy=0.25.0 
   - shapely=2.1.2 
   - pyproj=3.7.2 

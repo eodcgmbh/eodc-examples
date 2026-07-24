@@ -1,0 +1,26 @@
+[project]
+name = "cn-datacube-notebooks"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "cartopy>=0.25.0",
+    "cdsapi>=0.7.7",
+    "dask>=2026.7.0",
+    "geopandas>=1.1.4",
+    "geozarr-toolkit>=0.1.2",
+    "icechunk>=2.1.1",
+    "matplotlib>=3.11.0",
+    "netcdf4>=1.7.4",
+    "pdbufr>=0.14.2",
+    "pyarrow>=25.0.0",
+    "pystac-client>=0.9.0",
+    "rio-cogeo>=7.0.2",
+    "rioxarray>=0.22.0",
+    "satpy>=0.60.0",
+    "tqdm>=4.68.4",
+    "virtual-tiff>=0.5.0",
+    "xarray>=2026.4.0",
+    "zarr>=3.2.1",
+]

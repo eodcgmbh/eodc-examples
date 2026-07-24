@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<informationPackage xmlns="http://www.eumetsat.int/sip">
+    <dataSection>
+        <dataObject ID="W_XX-EUMETSAT-Darmstadt,IMG+SAT,MTI1+FCI-2-ASR--FD------BUFR_C_EUMT_20260714142512_L2PF_OPE_20260714141000_20260714142000_N__O_0086_0000.bin">
+            <fileType>Data</fileType>
+            <format>BUFR</format>
+            <size>12528747</size>
+            <path>W_XX-EUMETSAT-Darmstadt,IMG+SAT,MTI1+FCI-2-ASR--FD------BUFR_C_EUMT_20260714142512_L2PF_OPE_20260714141000_20260714142000_N__O_0086_0000.bin</path>
+            <checksum algorithm="md5">e204c97e56bcfb0bb0c0b3e11e0dcd0d</checksum>
+        </dataObject>
+    </dataSection>
+    <eopmetadataSection>
+        <path>EOPMetadata.xml</path>
+    </eopmetadataSection>
+</informationPackage>

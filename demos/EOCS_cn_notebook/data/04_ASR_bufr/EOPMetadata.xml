@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eum:EarthObservation xmlns:eop="http://www.opengis.net/eop/2.1"
+                      xmlns:eu="http://www.eumetsat.int/sentinel"
+                      xmlns:eum="http://www.eumetsat.int/eop/1.0"
+                      xmlns:gml="http://www.opengis.net/gml/3.2"
+                      xmlns:om="http://www.opengis.net/om/2.0"
+                      xmlns:ows="http://www.opengis.net/ows/2.0"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      gml:id="idSIPMetadata_2_1">
+   <om:phenomenonTime>
+      <gml:TimePeriod gml:id="phenomenonTime">
+         <gml:beginPosition>2026-07-14T14:10:00.000Z</gml:beginPosition>
+         <gml:endPosition>2026-07-14T14:20:00.000Z</gml:endPosition>
+      </gml:TimePeriod>
+   </om:phenomenonTime>
+   <om:resultTime>
+      <gml:TimeInstant gml:id="resultTime">
+         <gml:timePosition>2026-07-14T14:10:00.000Z</gml:timePosition>
+      </gml:TimeInstant>
+   </om:resultTime>
+   <om:procedure>
+      <eop:EarthObservationEquipment gml:id="procedure">
+         <eop:platform>
+            <eop:Platform>
+               <eop:shortName>MTI1</eop:shortName>
+               <eop:orbitType>GEO</eop:orbitType>
+            </eop:Platform>
+         </eop:platform>
+         <eop:instrument>
+            <eop:Instrument>
+               <eop:shortName>FCI</eop:shortName>
+               <eop:description>Flexible Combined Imager</eop:description>
+            </eop:Instrument>
+         </eop:instrument>
+         <eop:sensor>
+            <eop:Sensor>
+               <eop:operationalMode>FDC</eop:operationalMode>
+            </eop:Sensor>
+         </eop:sensor>
+         <eop:acquisitionParameters>
+            <eum:Acquisition>
+               <eum:mtgCoverage>
+                  <eum:MTGCoverage>
+                     <eum:repeatCycleIdentifier>0086</eum:repeatCycleIdentifier>
+                     <eum:majorRegionType>FullDisc</eum:majorRegionType>
+                     <eum:majorRegionCoverage>FD</eum:majorRegionCoverage>
+                  </eum:MTGCoverage>
+               </eum:mtgCoverage>
+            </eum:Acquisition>
+         </eop:acquisitionParameters>
+      </eop:EarthObservationEquipment>
+   </om:procedure>
+   <om:observedProperty nilReason="inapplicable"/>
+   <om:featureOfInterest>
+      <eop:Footprint gml:id="footprint">
+         <eop:multiExtentOf nilReason="inapplicable"/>
+         <eop:centerOf>
+            <gml:Point gml:id="centerOf" srsName="EPSG:4326">
+               <gml:pos>0 0.0</gml:pos>
+            </gml:Point>
+         </eop:centerOf>
+      </eop:Footprint>
+   </om:featureOfInterest>
+   <om:result>
+      <eop:EarthObservationResult gml:id="result">
+         <eop:product>
+            <eop:ProductInformation>
+               <eop:fileName>
+                  <ows:ServiceReference xlink:href="W_XX-EUMETSAT-Darmstadt%2CIMG%2BSAT%2CMTI1%2BFCI-2-ASR--FD------BUFR_C_EUMT_20260714142512_L2PF_OPE_20260714141000_20260714142000_N__O_0086_0000">
+                     <ows:Identifier>W_XX-EUMETSAT-Darmstadt,IMG+SAT,MTI1+FCI-2-ASR--FD------BUFR_C_EUMT_20260714142512_L2PF_OPE_20260714141000_20260714142000_N__O_0086_0000</ows:Identifier>
+                     <ows:RequestMessage/>
+                  </ows:ServiceReference>
+               </eop:fileName>
+               <eop:version>original</eop:version>
+               <eop:size uom="KB">12239</eop:size>
+               <eop:timeliness>NRT</eop:timeliness>
+            </eop:ProductInformation>
+         </eop:product>
+      </eop:EarthObservationResult>
+   </om:result>
+   <eop:metaDataProperty>
+      <eum:EarthObservationMetaData>
+         <eop:identifier>W_XX-EUMETSAT-Darmstadt,IMG+SAT,MTI1+FCI-2-ASR--FD------BUFR_C_EUMT_20260714142512_L2PF_OPE_20260714141000_20260714142000_N__O_0086_0000</eop:identifier>
+         <eop:parentIdentifier>EO:EUM:DAT:0799</eop:parentIdentifier>
+         <eop:acquisitionType>NOMINAL</eop:acquisitionType>
+         <eop:acquisitionSubType>O</eop:acquisitionSubType>
+         <eop:productType>MTIFCI2ASRB</eop:productType>
+         <eop:status>ACQUIRED</eop:status>
+         <eop:downlinkedTo>
+            <eop:DownlinkInformation>
+               <eop:acquisitionStation codeSpace="urn:eop:EUM:stationCode">MDA</eop:acquisitionStation>
+            </eop:DownlinkInformation>
+         </eop:downlinkedTo>
+         <eop:productQualityStatus>NOMINAL</eop:productQualityStatus>
+         <eop:processing>
+            <eop:ProcessingInformation>
+               <eop:processingCenter>EUM</eop:processingCenter>
+               <eop:processingDate>2026-07-14T14:25:12.000Z</eop:processingDate>
+               <eop:methodVersion>original</eop:methodVersion>
+               <eop:processorName>L2PF</eop:processorName>
+               <eop:nativeProductFormat>Binary</eop:nativeProductFormat>
+               <eop:processingMode>N</eop:processingMode>
+            </eop:ProcessingInformation>
+         </eop:processing>
+         <eum:granuleType>DP</eum:granuleType>
+         <eum:processingLevel>02</eum:processingLevel>
+         <eum:extraInformation>
+            <eum:locationIndicator>Nominal</eum:locationIndicator>
+         </eum:extraInformation>
+      </eum:EarthObservationMetaData>
+   </eop:metaDataProperty>
+</eum:EarthObservation>

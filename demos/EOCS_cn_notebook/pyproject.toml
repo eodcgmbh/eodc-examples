@@ -1,5 +1,5 @@
 [project]
-name = "cn-datacube-notebooks"
+name = "cn-datacube-notebooks" # cloud-conv-nbs
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -23,4 +23,5 @@ dependencies = [
     "virtual-tiff>=0.5.0",
     "xarray>=2026.4.0",
     "zarr>=3.2.1",
+    "ipykernel"
 ]

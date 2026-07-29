@@ -1,6 +1,6 @@
 .venv
 data/01_s1_sigma0_geotiff
 data/02_cgls_ssm_geotiff
-data/03_era5land_netCDF
+data/03_era5land_nc
 outputs
 .vscode

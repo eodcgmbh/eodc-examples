@@ -23,5 +23,6 @@ dependencies = [
     "virtual-tiff>=0.5.0",
     "xarray>=2026.4.0",
     "zarr>=3.2.1",
-    "ipykernel"
+    "ipykernel",
+    "pdbufr"
 ]

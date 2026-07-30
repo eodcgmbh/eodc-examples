@@ -1,7 +1,7 @@
 [project]
-name = "cn-datacube-notebooks" # cloud-conv-nbs
+name = "cloud-conv-nbs"
 version = "0.1.0"
-description = "Add your description here"
+description = "Collection of notebooks to convert data into a cloud-optimized format"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

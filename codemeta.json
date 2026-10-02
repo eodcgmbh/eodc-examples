@@ -1,0 +1,53 @@
+{
+  "@context": [
+    "https://w3id.org/codemeta/3.0",
+    "https://w3id.org/software-types",
+    "https://eosc-data-commons.github.io/execution-environment/context.jsonld",
+    {
+      "schema": "https://schema.org/"
+    }
+  ],
+  "@id": "https://github.com/sebastian-luna-valero/eodc-examples/",
+  "@type": "SoftwareSourceCode",
+  "name": "EODC Example Notebooks",
+  "description": "Repository hosting example Notebooks to interact with the EODC STAC catalog.",
+  "codeRepository": "https://github.com/sebastian-luna-valero/eodc-examples/",
+  "identifier": "https://github.com/sebastian-luna-valero/eodc-examples/",
+  "license": "TBC",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Stefan",
+      "familyName": "Reimond",
+      "url": "https://github.com/sreimond-eodc"
+    }
+  ],
+  "programmingLanguage": "Python",
+  "runtimePlatform": [
+    {
+      "@id": "#binder-environment",
+      "@type": [
+        "BinderEnvironment"
+      ],
+      "name": "Binder execution environment",
+      "schema:hasPart": [
+        {
+          "@id": "https://github.com/sebastian-luna-valero/eodc-examples/blob/s5p/requirements.txt"
+        }
+      ]
+    }
+  ],
+  "isSourceCodeOf": [
+    {
+      "@id": "#notebook",
+      "@type": "NotebookApplication",
+      "name": "EODC Example Notebooks"
+    }
+  ],
+  "applicationCategory": "Scientific software",
+  "keywords": [
+    "Jupyter Notebook",
+    "Binder",
+    "data analysis"
+  ]
+}

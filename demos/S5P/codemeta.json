@@ -7,12 +7,12 @@
       "schema": "https://schema.org/"
     }
   ],
-  "@id": "https://github.com/sebastian-luna-valero/eodc-examples/",
+  "@id": "https://github.com/sebastian-luna-valero/eodc-examples/tree/s5p/demos/S5P",
   "@type": "SoftwareSourceCode",
-  "name": "EODC Example Notebooks",
-  "description": "Repository hosting example Notebooks to interact with the EODC STAC catalog.",
-  "codeRepository": "https://github.com/sebastian-luna-valero/eodc-examples/",
-  "identifier": "https://github.com/sebastian-luna-valero/eodc-examples/",
+  "name": "Sentinel-5P Notebook",
+  "description": "This notebook serves as a concise guide to working with Zarr using the Sentinel‑5P archive at EODC.",
+  "codeRepository": "https://github.com/sebastian-luna-valero/eodc-examples/tree/s5p/demos/S5P",
+  "identifier": "https://github.com/sebastian-luna-valero/eodc-examples/tree/s5p/demos/S5P",
   "license": "TBC",
   "author": [
     {

@@ -20,6 +20,66 @@
       "givenName": "Stefan",
       "familyName": "Reimond",
       "url": "https://github.com/sreimond-eodc"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Adrian",
+      "familyName": "Di Paolo",
+      "url": "https://github.com/Adrok24"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Christoph",
+      "familyName": "Reimer",
+      "url": "https://github.com/christophreimer"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Franziska",
+      "familyName": "König",
+      "url": "https://github.com/koenifra"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Gerald",
+      "additionalName": "Walter",
+      "familyName": "Irsiegler",
+      "url": "https://github.com/rtmiz"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Otto",
+      "familyName": "Scipal",
+      "url": "https://github.com/oscipal"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Sean",
+      "familyName": "Hoyal",
+      "url": "https://github.com/SerRichard"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Senmao",
+      "familyName": "Cao"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Simon",
+      "familyName": "Mosonyi",
+      "url": "https://github.com/simonmosonyi"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Tobias",
+      "familyName": "Stachl",
+      "url": "https://github.com/tobiasraigerstachl"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Valentina",
+      "familyName": "Hutter",
+      "url": "https://github.com/ValentinaHutter"
     }
   ],
   "programmingLanguage": "Python",

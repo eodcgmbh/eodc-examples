@@ -1,0 +1,113 @@
+{
+  "@context": [
+    "https://w3id.org/codemeta/3.0",
+    "https://w3id.org/software-types",
+    "https://eosc-data-commons.github.io/execution-environment/context.jsonld",
+    {
+      "schema": "https://schema.org/"
+    }
+  ],
+  "@id": "https://github.com/sebastian-luna-valero/eodc-examples/tree/s5p/demos/S5P",
+  "@type": "SoftwareSourceCode",
+  "name": "Sentinel-5P Notebook",
+  "description": "This notebook serves as a concise guide to working with Zarr using the Sentinel‑5P archive at EODC.",
+  "codeRepository": "https://github.com/sebastian-luna-valero/eodc-examples/tree/s5p/demos/S5P",
+  "identifier": "https://github.com/sebastian-luna-valero/eodc-examples/tree/s5p/demos/S5P",
+  "license": "TBC",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Stefan",
+      "familyName": "Reimond",
+      "url": "https://github.com/sreimond-eodc"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Adrian",
+      "familyName": "Di Paolo",
+      "url": "https://github.com/Adrok24"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Christoph",
+      "familyName": "Reimer",
+      "url": "https://github.com/christophreimer"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Franziska",
+      "familyName": "König",
+      "url": "https://github.com/koenifra"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Gerald",
+      "additionalName": "Walter",
+      "familyName": "Irsiegler",
+      "url": "https://github.com/rtmiz"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Otto",
+      "familyName": "Scipal",
+      "url": "https://github.com/oscipal"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Sean",
+      "familyName": "Hoyal",
+      "url": "https://github.com/SerRichard"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Senmao",
+      "familyName": "Cao"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Simon",
+      "familyName": "Mosonyi",
+      "url": "https://github.com/simonmosonyi"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Tobias",
+      "familyName": "Stachl",
+      "url": "https://github.com/tobiasraigerstachl"
+    },
+    {
+      "@type": "Person",
+      "givenName": "Valentina",
+      "familyName": "Hutter",
+      "url": "https://github.com/ValentinaHutter"
+    }
+  ],
+  "programmingLanguage": "Python",
+  "runtimePlatform": [
+    {
+      "@id": "#binder-environment",
+      "@type": [
+        "BinderEnvironment"
+      ],
+      "name": "Binder execution environment",
+      "schema:hasPart": [
+        {
+          "@id": "https://github.com/sebastian-luna-valero/eodc-examples/blob/s5p/requirements.txt"
+        }
+      ]
+    }
+  ],
+  "isSourceCodeOf": [
+    {
+      "@id": "#notebook",
+      "@type": "NotebookApplication",
+      "name": "EODC Example Notebooks"
+    }
+  ],
+  "applicationCategory": "Scientific software",
+  "keywords": [
+    "Jupyter Notebook",
+    "Binder",
+    "data analysis"
+  ]
+}
